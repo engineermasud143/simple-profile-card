@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile Card</title>
+ 
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f3f4f6;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .profile-card {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(90, 88, 88, 0.1);
+      text-align: center;
+      max-width: 300px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .profile-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 30px rgba(65, 231, 76, 0.984);
+    }
+
+    .profile-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .profile-card a {
+        text-decoration: none;
+    }
+    .profile-card h2 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+      color: #1e293b;
+    }
+
+    .profile-card .title {
+      font-size: 14px;
+      color: #64748b;
+      margin-bottom: 15px;
+    }
+
+    .profile-card .bio {
+      font-size: 14px;
+      color: #334155;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+
+    
+
+  <div class="profile-card">
+    <marquee direction="left">যদি আমার সম্পর্কে জানতে চান, তবে আমার নামের উপর ক্লিক করুন।</marquee>
+    <img src="image/291133655_562721515321501_7058542618136551237_n.jpg" alt="Profile Picture">
+    <a href="https://www.facebook.com/engineermasud143/"><h2>Masud Hossain</h2></a>
+    <p class="title">Frontend Developer</p>
+    <p class="bio">Passionate about building beautiful and accessible web interfaces using HTML, CSS, and JavaScript.</p>
+
+    <p style="font-size: 14px; color: #475569; margin-top: 10px;">
+    যদি আমার সম্পর্কে জানতে চান, তবে আমার নামের উপর ক্লিক করুন।
+</p>
+
+  </div>
+
+</body>
+</html>
